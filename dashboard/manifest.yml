@@ -1,0 +1,16 @@
+---
+applications:
+  .:
+    name: af-sensu-dashboard
+    framework:
+      name: standalone
+      info:
+        mem: 64M
+        description: Sensu Dashboard
+        exec: 
+    runtime: ruby193
+    command: ./app.rb
+    infra: aws
+    url: af-sensu-dashboard.aws.af.cm
+    mem: 128M
+    instances: 1

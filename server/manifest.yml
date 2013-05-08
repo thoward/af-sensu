@@ -1,0 +1,21 @@
+---
+applications:
+  .:
+    name: af-sensu-server
+    framework:
+      name: standalone
+      info:
+        mem: 64M
+        description: Sensu Server
+        exec: 
+    runtime: ruby193
+    command: ./app.rb
+    infra: aws
+    url: 
+    mem: 128M
+    instances: 1
+    services:
+      redis-sensu:
+        type: redis
+      rabbit-sensu:
+        type: rabbitmq

@@ -1,0 +1,6 @@
+{
+  "api": {
+    "host": "af-sensu-api.aws.af.cm",
+    "port": "80"
+  }
+}

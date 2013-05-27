@@ -9,9 +9,9 @@ applications:
         description: Sensu Server
         exec: 
     runtime: ruby193
-    command: ./app.rb
+    command: ./sensu-server.rb
     infra: aws
-    url: 
+    url:  
     mem: 128M
     instances: 1
     services:

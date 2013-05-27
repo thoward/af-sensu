@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "client_self_check": {
+      "handlers": ["default"],
+      "command": "./bin/check-procs.rb -p sensu-client-app.rb -C 1 ",
+      "interval": 60,
+      "subscribers": [ "servers" ]
+    }
+  }
+}

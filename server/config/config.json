@@ -1,6 +1,8 @@
 {
-  "api": {
-    "host": "af-sensu-api.aws.af.cm",
-    "port": "80"
+  "handlers": {
+    "default": {
+      "type": "pipe",
+      "command": "bin/show.rb"
+    }
   }
 }

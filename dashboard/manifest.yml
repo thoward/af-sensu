@@ -9,7 +9,7 @@ applications:
         description: Sensu Dashboard
         exec: 
     runtime: ruby193
-    command: ./app.rb
+    command: ./sensu-dashboard.rb
     infra: aws
     url: af-sensu-dashboard.aws.af.cm
     mem: 128M

@@ -1,0 +1,4 @@
+source :rubygems
+
+gem "sensu"
+gem "sensu-plugin"

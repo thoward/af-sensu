@@ -1,0 +1,7 @@
+{
+  "client": {
+    "name": "servers-client",
+    "adress": "n/a",
+    "subscriptions": ["servers"]
+  }
+}

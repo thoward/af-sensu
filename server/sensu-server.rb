@@ -47,8 +47,5 @@ require 'sensu/server'
 options = {}
 options[:config_dir] = "./config"
 options[:log_level] = :debug
-#options[:daemonize] = true
-
-puts ENV.inspect
 
 Sensu::Server.run(options)
